@@ -23,65 +23,6 @@ background-size: cover;
 }
 video { display: block; }
   *
-.menu {
-  float:left;
-  width:25%;
-  text-align:center;
-}
-.menu a {
-  background: linear-gradient(#00ff00, #009900);
-  padding:8px;
-  margin-top:7px;
-  display:block;
-  width:100%;
-  color:black;
-  font-size:20px;
-}
-.main {
-  float:left;
-  width:50%;
-  padding:0 20px;
-}
-
-.myButton {
-	-moz-box-shadow: 0px 10px 14px -7px #276873;
-	-webkit-box-shadow: 0px 10px 14px -7px #276873;
-	box-shadow: 0px 10px 14px -7px #276873;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f57070), color-stop(1, #ff2f00));
-	background:-moz-linear-gradient(top, #f57070 5%, #ff2f00 100%);
-	background:-webkit-linear-gradient(top, #f57070 5%, #ff2f00 100%);
-	background:-o-linear-gradient(top, #f57070 5%, #ff2f00 100%);
-	background:-ms-linear-gradient(top, #f57070 5%, #ff2f00 100%);
-	background:linear-gradient(to bottom, #f57070 5%, #ff2f00 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f57070', endColorstr='#ff2f00',GradientType=0);
-	background-color:#f57070;
-	-moz-border-radius:8px;
-	-webkit-border-radius:8px;
-	border-radius:8px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #3d768a;
-}
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff2f00), color-stop(1, #f57070));
-	background:-moz-linear-gradient(top, #ff2f00 5%, #f57070 100%);
-	background:-webkit-linear-gradient(top, #ff2f00 5%, #f57070 100%);
-	background:-o-linear-gradient(top, #ff2f00 5%, #f57070 100%);
-	background:-ms-linear-gradient(top, #ff2f00 5%, #f57070 100%);
-	background:linear-gradient(to bottom, #ff2f00 5%, #f57070 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2f00', endColorstr='#f57070',GradientType=0);
-	background-color:#ff2f00;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
 @media only screen and (max-width:640px) {
   /* For mobile phones: */
   .menu, .main, .right {
@@ -129,13 +70,75 @@ video { display: block; }
  
                              </div> 
   			</div>
-	<div align="center" class="w3-container">
-			<button class="w3-button w3-indigo" style="font-size:20px; font-family:bbcnassim; text-align:center">92.8 fm  : بومدفع / عين الدفلى </button>
-                        <button class="w3-button w3-indigo" style="font-size:20px; font-family:bbcnassim; text-align:center;">93.0 fm  :  جندل / تاشتة </button>
-                        <button class="w3-button w3-indigo" style="font-size:20px; font-family:bbcnassim; text-align:center;">95.2 fm  :  العناب </button>
-                        <button class="w3-button w3-indigo" style="font-size:20px; font-family:bbcnassim; text-align:center;">102.0 fm  :  مليانة  </button>
-                        <button class="w3-button w3-indigo" style="font-size:20px; font-family:bbcnassim; text-align:center;">107.7 fm  : طارق ابن زياد </button>
-			    </div>
+	<div class="w3-container w3-teal">
+  <h1>أمواج البث</h1>
+</div>
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="92.8.gif" style="width:100%">
+      <div class="w3-container">
+        <h5>5 Terre</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="93.gif" style="width:100%">
+      <div class="w3-container">
+        <h5>Monterosso</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="95.2.gif" style="width:100%">
+      <div class="w3-container">
+        <h5>Vernazza</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-margin-top">
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="102.gif" style="width:100%">
+      <div class="w3-container">
+        <h5>Manarola</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="107.gif" style="width:100%">
+      <div class="w3-container">
+        <h5>Corniglia</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="sat.gif" style="width:100%">
+      <div class="w3-container">
+        <h5>Riomaggiore</h5>
+      </div>
+    </div>
+  </div>
+  <div class="w3-third">
+    <div class="w3-card">
+      <img src="web.gif" style="width:100%">
+      <div class="w3-container">
+        <h5>Riomaggiore</h5>
+      </div>
+    </div>
+  </div>
+</div>
 
 				<!-- Footer -->
 				<div style="background:linear-gradient(#7d7d7d,#000000 );text-align:center; padding:10px; margin-top:4px;"> © الإذاعة الجزائرية  2019</div>
